@@ -16,4 +16,6 @@ if ( ! hasAllowedNodeVersion || ! hasAllowedNpmVersion ) {
 		process.version,
 		results.stdout || 'unknown'
 	);
+
+	process.exit(1);
 }

@@ -2,7 +2,7 @@
 const semver = require( 'semver' );
 const colors = require( 'colors' );
 const child_process = require( 'child_process' );
-const engines = require( '../package' ).engines;
+const engines = require( '../../package' ).engines;
 
 const hasAllowedNodeVersion = semver.satisfies( process.version, engines.node );
 const results = child_process.spawnSync( 'npm', [ '-v' ], { encoding : 'utf8' } );

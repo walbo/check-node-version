@@ -1,0 +1,29 @@
+{
+  "name": "check-node-version",
+  "version": "0.1.0",
+  "description": "Check if correct version of node and npm is installed",
+  "private": true,
+  "bin": {
+    "check-node-version": "cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/walbo/check-node-version.git"
+  },
+  "author": "Petter Walbø Johnsgård (https://twitter.com/walb0)",
+  "contributors": [
+    {
+      "name": "Petter Walbø Johnsgård ",
+      "url": "https://twitter.com/walb0"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/walbo/check-node-version/issues"
+  },
+  "homepage": "https://github.com/walbo/check-node-version",
+  "dependencies": {
+    "colors": "1.1.2",
+    "semver": "5.1.0"
+  },
+}

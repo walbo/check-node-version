@@ -10,7 +10,7 @@ const hasAllowedNpmVersion = results.stdout && semver.satisfies( results.stdout,
 
 if ( ! hasAllowedNodeVersion || ! hasAllowedNpmVersion ) {
 	console.error(
-		'This project requires node %s and npm %s,\nYou have node %s and npm %s\nPlease switch using nvm or n! Or see https://nodejs.org for instructions.'.red,
+		'Dette prosjektet krever node %s og npm %s,\nDu har node %s og npm %s\nVennligst bytt ved å bruke nvm eller n!\nEller se https://nodejs.org for instruksjoner.'.red,
 		engines.node,
 		engines.npm,
 		process.version,
